@@ -73,6 +73,7 @@ export default function App() {
               updateTodoDone={updateTodoDone}
             ></Todo>
           )}
+          keyExtractor={(item, index) => index.toString()}
         ></FlatList>
       </View>
       <StatusBar hidden={true} style="auto" />
