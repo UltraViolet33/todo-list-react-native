@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
   },
   nameTodo: {
     flex: 3,
-    fontSize: 20,
+    fontSize: 15,
     textAlign: "center",
     color: "white",
   },
