@@ -7,16 +7,12 @@ export default Todo = ({
   indexTodo,
   deleteTodo,
 }) => {
-  const titleBtn = todoDone ? "YES" : "NO";
-
-  const styleBtnUpdate = todoDone
-    ? [styles.updateBtn, styles.updateBtnYes]
-    : [styles.updateBtn, styles.updateBtnNo];
+  const titleBtn = todoDone ? "✅" : "❌";
 
   return (
     <View style={styles.todoContainer}>
       <TouchableOpacity
-        style={styleBtnUpdate}
+        style={styles.updateBtn}
         onPress={() => {
           updateTodoDone(indexTodo);
         }}
@@ -72,7 +68,6 @@ const styles = StyleSheet.create({
     color: "white",
   },
   updateBtn: {
-    backgroundColor: "red",
     height: 40,
     margin: 5,
     borderRadius: 10,
@@ -82,11 +77,5 @@ const styles = StyleSheet.create({
   },
   textUpdateBtn: {
     color: "white",
-  },
-  updateBtnYes: {
-    backgroundColor: "green",
-  },
-  updateBtnNo: {
-    backgroundColor: "red",
   },
 });
