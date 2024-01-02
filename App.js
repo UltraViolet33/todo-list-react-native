@@ -1,11 +1,11 @@
-import { StatusBar } from "expo-status-bar";
-import { StyleSheet, View } from "react-native";
-import { useState, useEffect } from "react";
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import { StyleSheet, View } from "react-native";
+import { FlatList } from "react-native";
+import { StatusBar } from "expo-status-bar";
+import { useState, useEffect } from "react";
 import Header from "./components/Header";
 import Input from "./components/Input";
 import Todo from "./components/Todo";
-import { FlatList } from "react-native";
 
 export default function App() {
   const [todoList, setTodoList] = useState([]);
@@ -70,11 +70,9 @@ export default function App() {
               todoDone={item.done}
               indexTodo={index}
               deleteTodo={deleteTodo}
-              updateTodoDone={updateTodoDone}
-            ></Todo>
+              updateTodoDone={updateTodoDone}></Todo>
           )}
-          keyExtractor={(item, index) => index.toString()}
-        ></FlatList>
+          keyExtractor={(item, index) => index.toString()}></FlatList>
       </View>
       <StatusBar hidden={true} style="auto" />
     </View>

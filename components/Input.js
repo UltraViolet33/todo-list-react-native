@@ -25,8 +25,7 @@ export default Input = ({ addTodo }) => {
       <TextInput
         value={todo}
         onChangeText={setTodo}
-        style={styles.input}
-      ></TextInput>
+        style={styles.input}></TextInput>
       <TouchableOpacity style={styles.button} onPress={handleBtnAdd}>
         <Text style={styles.textButton}>OK</Text>
       </TouchableOpacity>

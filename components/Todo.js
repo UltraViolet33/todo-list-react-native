@@ -15,8 +15,7 @@ export default Todo = ({
         style={styles.updateBtn}
         onPress={() => {
           updateTodoDone(indexTodo);
-        }}
-      >
+        }}>
         <Text style={styles.textUpdateBtn}>{titleBtn}</Text>
       </TouchableOpacity>
       <Text style={styles.nameTodo}>{nameTodo}</Text>
@@ -25,8 +24,7 @@ export default Todo = ({
           style={styles.textButton}
           onPress={() => {
             deleteTodo(indexTodo);
-          }}
-        >
+          }}>
           Delete
         </Text>
       </TouchableOpacity>
