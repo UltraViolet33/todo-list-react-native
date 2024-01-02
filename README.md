@@ -2,7 +2,7 @@
 
 Practice of React-Native.
 
-<img src="https://github.com/UltraViolet33/Todo-List-React-Native/blob/master/assets/screenshot.jpg.jpg"  height="500" />
+<img src="https://github.com/UltraViolet33/Todo-List-React-Native/blob/master/assets/screenshot.jpg"  height="500" />
 
 
 ## What can we do with this app ?
