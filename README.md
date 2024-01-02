@@ -1,8 +1,9 @@
-# Todo-List-React-Native
+# Todo-List React-Native
 
-Little practice of React-Native with a todo list !
+Practice of React-Native.
 
-<img src="https://github.com/UltraViolet33/Todo-List-React-Native/blob/master/assets/screenshot_react_native_app.jpg"  height="500" />
+<img src="https://github.com/UltraViolet33/Todo-List-React-Native/blob/master/assets/screenshot.jpg.jpg"  height="500" />
+
 
 ## What can we do with this app ?
 - add a todo

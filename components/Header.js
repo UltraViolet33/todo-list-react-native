@@ -3,7 +3,7 @@ import { View, Text, StyleSheet } from "react-native";
 export default Header = () => {
   return (
     <View style={styles.titleContainer}>
-      <Text style={styles.title}>Todo List React Native</Text>
+      <Text style={styles.title}>Todo List</Text>
     </View>
   );
 };
